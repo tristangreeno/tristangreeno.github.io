@@ -80,9 +80,7 @@ aside {
     background: black;
     border-color: #3C763D;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -177,7 +175,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: black;
+    color: #fff;
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
