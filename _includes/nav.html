@@ -42,6 +42,13 @@
                     {% endif %}
                     <a href="/contact.html">Contact</a>
                 </li>
+                    {% if page.url == '/blog.html' %}
+                <li class="active">
+                    {% else %}
+                <li>
+                    {% endif %}
+                    <a href="/blog.html">Blog</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
