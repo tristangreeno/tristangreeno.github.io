@@ -77,9 +77,9 @@ aside {
 }
 
 .navbar-default {
+    background: black;
     border-color: #3C763D;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #080808;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
