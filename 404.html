@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>404 - Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+            background-size: cover;
+            background: url("https://pixabay.com/static/uploads/photo/2016/03/22/04/08/pepe-the-frog-1272162_960_720.jpg") no-repeat center center;
+        }
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+        }
+        h1 {
+            background: transparent;
+            color: whitesmoke;
+            font-size: 2em;
+            font-weight: 400;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        p {
+            background: transparent;
+            color: whitesmoke;
+            margin: 0 auto;
+            width: 280px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+        @media only screen and (max-width: 280px) {
+            body, p {
+                width: 95%;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
+        }
+    </style>
+</head>
+<!-- Added onload to go back after 6 seconds for a 404. -->
+<body onload="setTimeout(function(){ history.back(); }, 1000*6)">
+<h1>File Not Found</h1>
+<p>Sorry, but the page you were trying to find does not exist.</p>
+</body>
+</html>
+<!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->
