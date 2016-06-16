@@ -1,64 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-
-
-
-
-
-
-
-#menu-0 .mbr-brand__name {
-  font-size: 16px;
+#menu-2 .nav.navbar-nav.navbar-right a {
+  font-size: 14px;
 }
-#menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
+#header17-4 P {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
-#menu-0 .mbr-navbar__hamburger {
+#header17-4 H2 {
   color: #ffffff;
 }
-#menu-0 .mbr-brand__name a {
-  font-size: 18px;
-  font-family: 'Merriweather', serif;
-}
-#header1-1 H1 {
-  font-family: 'Merriweather', serif;
-  text-align: center;
-}
-#header1-1 P {
-  font-family: 'Merriweather', serif;
-  text-align: center;
-  font-size: 20px;
-}
-#header1-1 B {
+#features3-6 P {
   color: #ffffff;
-  text-align: right;
 }
-#features1-3 P {
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Merriweather', serif;
+#features3-6 H4 {
+  color: #ffffff;
 }
-#features1-3 .mbr-section__col .mbr-header__text {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 22px;
-  text-align: center;
+#slider-8 P {
+  text-align: left;
 }
-#msg-box1-8 .mbr-header .mbr-header__text {
-  color: #fff;
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-#msg-box1-8 .mbr-article {
-  color: #fff;
-}
-#msg-box1-8 .mbr-article P {
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-#social-buttons2-7 .mbr-header__text {
-  color: #efefef;
-  font-family: 'Merriweather', serif;
-  text-align: right;
-  font-size: 22px;
+#slider-8 H1 {
+  text-align: left;
 }
