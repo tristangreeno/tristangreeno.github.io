@@ -13,13 +13,21 @@
 }
 #features3-6 P {
   color: #ffffff;
+  font-size: 15px;
 }
 #features3-6 H4 {
   color: #ffffff;
 }
 #slider-8 P {
   text-align: left;
+  font-size: 15px;
 }
 #slider-8 H1 {
   text-align: left;
+}
+#contacts1-12 .contact-info i {
+  color: #29d9c2;
+}
+#contacts1-12 H1 {
+  font-size: 18px;
 }
